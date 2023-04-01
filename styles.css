@@ -1,0 +1,36 @@
+body {
+    background-color: #eef5ff;
+}
+
+.section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #fff;
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    border: 15px solid white;
+    border-right: hidden;
+    gap: 15px;
+}
+
+.image {
+    background-color: darkgrey;
+    flex-grow: 1;
+    border-radius: 15px;
+}
+
+.form {
+    background-color: dodgerblue;
+    flex-grow: 2;
+    border-radius: 15px;
+}
