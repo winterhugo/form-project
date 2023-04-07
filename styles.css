@@ -46,7 +46,7 @@ body {
 
 /* Form */
 
-.form {
+.tab {
     width: 470px;
 }
 
@@ -66,7 +66,12 @@ h2 {
     margin-bottom: 40px;
 }
 
-input {
+.form-entity-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
     display: block;
     width: 440px;
     border-radius: 8px;
@@ -81,8 +86,21 @@ input {
     color: #07265f;
 }
 
-input:focus {
+.input:focus {
     border: 1px solid #5349a9;
+}
+
+.input::placeholder {
+    opacity: 0.3;
+}
+
+.input-invalid {
+    border: 1.5px solid #d42c3d;
+}
+
+.required-message {
+    color: #d42c3d;
+    display: none;
 }
 
 .btn-box {
