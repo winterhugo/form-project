@@ -15,7 +15,6 @@ function validateForm() {
         else {
             elements[x].classList.remove("input-invalid");
             messages[x].style.display = "none";
-
         }
         x++;
     }
