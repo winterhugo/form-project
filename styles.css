@@ -29,6 +29,7 @@ body {
 }
 
 .image {
+    max-width: 300px;
     min-width: 300px;
     background-image: url(images/bg-sidebar-desktop.svg);
     background-repeat: no-repeat;
@@ -127,4 +128,56 @@ h2 {
 .btn:active {
     position: relative;
     left: 5px;
+}
+
+/* side-selector */
+
+.selectors {
+    margin-top: 50px;
+}
+
+.selector {
+    margin: 0px 30px 10px 100px;
+}
+
+.number {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    border: 1.3px solid white;
+    color: white;
+    position: relative;
+    right: 50px;
+    bottom: 30px;
+    font-weight: bold;
+}
+
+.number-selected {
+    color: black;
+    background-color: #bee0ff;
+    overflow: hidden;
+    border: 1.3px solid #bee0ff;
+}
+
+.selector-text {
+    display: inline;
+}
+
+.s-header {
+    color: white;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 10px;
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+
+.s-subtext {
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
 }
